@@ -1,38 +1,160 @@
-.App {
+
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.header-dark{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+
+}
+
+.header-dark .hand-pointer{
+  position: relative;
+  left: 920px;
+  top: 20px;
+}
+
+.f-logo{
+  position: relative;
+  left: 65px;
+  top: 14px;
+}
+
+.li-logo{ 
+    position: relative;
+    left: 90px;
+    top: 14px;
+  
+}
+
+.t-logo{ 
+  position: relative;
+  left: 115px;
+  top: 14px;
+
+}
+
+.i-logo{ 
+  position: relative;
+  left: 140px;
+  top: 14px;
+
+}
+
+
+
+.header-dark h6{
+  position: relative;
+  color: #FFFFFF;
+  padding-left: 1000px;
+  font-size: 13px;
+  bottom: 14px;
+  right: 80px;
+}
+
+
+
+.header-green{
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 50px;
+background-color: #146356;
+}
+
+.header-green .logo{
+margin: auto;
+padding-right: 40px;
+}
+
+.header-green .arrow{
+position: relative;
+right: 12px;
+
+}
+
+  
+.header-green ul{
+  padding: 20px;
+}
+.header-green ul li{
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  justify-content: center;
+  
+}
+
+.header-green ul li a{
+  list-style: none;
+  text-decoration: none;
+  margin-top: 500px;
+  color: #F3EADA;
+  padding: 20px;
+}
+
+.header-green button {
+display: flex;
+justify-content: space-between;
+width: 145.21px;
+height: 39.06px;
+padding-top: 10px;
+padding-left: 27px;
+margin: 29px 85px;
+color: white;
+background-color:  #FFA17A;
+border: 0px;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.search{
+display: flex;
+justify-content: space-between;
+width: 145.21px;
+height: 30px;
+margin: auto;
+position: relative;
+left: 140px;
+}
+
+.banner{
+  
+  height: 620px;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1563365488-1e365499ba88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+
+
+
+.feature{
+  height: 200px;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+position: relative;
+width: 300px;
+justify-content: center;
+left: 530px;
+top: 8px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 650;
+font-size: 34px;
 }

@@ -142,17 +142,88 @@ left: 140px;
 
 
 .feature{
-  height: 200px;
+  position: relative;
+  height: 770px;
   width: 100%;
+ bottom: 52.6px;
   text-align: center;
+  background: #c22e2e;
 }
+
+.f-box {
+  position:relative;
+  display: inline-block;
+  top: 30px; 
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  box-sizing: border-box;
+}
+.feature .f-box #one{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.feature .f-box #two{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.feature .f-box #three{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.feature .f-box #four{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.feature .f-box #five{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.feature .f-box #six{
+  position:relative;
+  top: 30px;
+  width: 334px;
+  height: 235px; 
+  background-color: #146356;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 
 .text{
 position: relative;
 width: 300px;
 justify-content: center;
 left: 530px;
-top: 8px;
+top: 35px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 650;
